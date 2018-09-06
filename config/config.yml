@@ -1,0 +1,24 @@
+#字典格式，冒号后必须空一格
+#测试地址
+URL: http://www.baidu.com
+#浏览器类型：Chrome\Edge\Firefox
+browser: Chrome
+#浏览器驱动路径
+driver_path: F:\Test_framework\drivers\chromedriver.exe
+#登录用户及密码
+dluser: qy0008
+dlpassword: aaaaaa
+#邮件相关：发件人、密码（授权码）、服务器、收件人列表
+sender: cstzhx@163.com
+password: wysqm7536
+host: smtp.163.com
+receiver:
+    - zhanghongxun@inspur.com
+    - 1347587964@qq.com
+#日志相关
+log:
+    file_name: test.log
+    backup: 5
+    console_level: WARNING
+    file_level: DEBUG
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
